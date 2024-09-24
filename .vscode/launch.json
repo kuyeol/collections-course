@@ -1,0 +1,126 @@
+{
+ // Use IntelliSense to learn about possible attributes.
+ // Hover to view descriptions of existing attributes.
+ // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+ "version": "0.2.0",
+ "configurations": [
+  {
+   "type": "java",
+   "name": "Current File",
+   "request": "launch",
+   "mainClass": "${file}"
+  },
+  {
+   "type": "java",
+   "name": "ComparatorsExampleList",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.comparators.ComparatorsExampleList",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploArrayList",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.list.ExemploArrayList",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploList",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.list.ExemploList",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploVector",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.list.ExemploVector",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploHashMap",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.map.ExemploHashMap",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploHashTable",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.map.ExemploHashTable",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploTreeMap",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.map.ExemploTreeMap",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploOptional",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.optionals.ExemploOptional",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploOptionalEstados",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.optionals.ExemploOptionalEstados",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploOtionalPrimitivos",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.optionals.ExemploOtionalPrimitivos",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExampleLinkedList",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.queue.ExampleLinkedList",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploLinkedList",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.queue.ExemploLinkedList",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploHashSet",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.set.ExemploHashSet",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploLinkedHashSet",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.set.ExemploLinkedHashSet",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploTreeSet",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.set.ExemploTreeSet",
+   "projectName": "collections-course"
+  },
+  {
+   "type": "java",
+   "name": "ExemploStreamAPI",
+   "request": "launch",
+   "mainClass": "one.digitalinnovation.stream.ExemploStreamAPI",
+   "projectName": "collections-course"
+  }
+ ]
+}

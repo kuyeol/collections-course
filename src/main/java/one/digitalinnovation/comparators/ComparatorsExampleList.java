@@ -12,10 +12,6 @@ public class ComparatorsExampleList {
         List<Estudante> estudantes = new ArrayList<>();
 
         estudantes.add(new Estudante("Pedro", 19));
-        estudantes.add(new Estudante("Carlos", 23));
-        estudantes.add(new Estudante("Mariana", 21));
-        estudantes.add(new Estudante("João", 18));
-        estudantes.add(new Estudante("Thiago", 20));
         estudantes.add(new Estudante("George", 22));
         estudantes.add(new Estudante("Larissa", 21));
 
@@ -34,7 +30,7 @@ public class ComparatorsExampleList {
 
         estudantes.sort(Comparator.comparingInt(Estudante::getIdade));
 
-        System.out.println("--- ordem natural dos números - idade (method reference) ---");
+        System.out.println("---ordem natural dos números - idade(method reference) ---");
         System.out.println(estudantes);
 
         estudantes.sort(Comparator.comparingInt(Estudante::getIdade).reversed());

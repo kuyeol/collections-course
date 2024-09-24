@@ -14,16 +14,17 @@ public class ExemploHashMap {
         campeoesMundialFifa.put("Alemanha", 4);
         campeoesMundialFifa.put("Itália", 4);
         campeoesMundialFifa.put("Uruguai", 2);
-        campeoesMundialFifa.put("Argentina", 2);
+        campeoesMundialFifa.put("Argentina", 6);
         campeoesMundialFifa.put("França", 2);
         campeoesMundialFifa.put("Inglaterra", 1);
         campeoesMundialFifa.put("Espanha", 1);
+        campeoesMundialFifa.put("Korea", 14);
+        campeoesMundialFifa.put("Korea", 34);
+        campeoesMundialFifa.put("usa", 5);
 
         System.out.println(campeoesMundialFifa);
 
         // Atualiza o valor para a chave Brasil
-
-        campeoesMundialFifa.put("Brasil", 6);
 
         System.out.println(campeoesMundialFifa);
 
@@ -34,16 +35,16 @@ public class ExemploHashMap {
         System.out.println(campeoesMundialFifa.containsKey("França"));
 
         // Remove o campeão França
-        campeoesMundialFifa.remove("França");
+      //  campeoesMundialFifa.remove("França");
 
         // Retorna se existe ou não um campeão França
         System.out.println(campeoesMundialFifa.containsKey("França"));
 
         // Retorna se existe ou não alguma seleção hexa campeã
-        System.out.println(campeoesMundialFifa.containsValue(6));
+        System.out.println("*VALUE is"+campeoesMundialFifa.containsValue(6));
 
         // Retorna o tamanho do mapa
-        System.out.println(campeoesMundialFifa.size());
+        System.out.println("*size is "+campeoesMundialFifa.size());
 
         System.out.println(campeoesMundialFifa);
 
@@ -60,7 +61,7 @@ public class ExemploHashMap {
         System.out.println(campeoesMundialFifa);
 
         // Verifica se o mapa contem a chave Estados Unidos
-        System.out.println(campeoesMundialFifa.containsKey("Estados Unidos"));
+        System.out.println(campeoesMundialFifa.containsKey("Korea"));
 
         // Verifica se o mapa contem o valor 5
         System.out.println(campeoesMundialFifa.containsValue(5));
